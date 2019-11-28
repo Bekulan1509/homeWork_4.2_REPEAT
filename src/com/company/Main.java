@@ -27,7 +27,7 @@ public class Main {
             runner.join();
             runner.start();
             runner.join();
-        }catch (IllegalCharsetNameException ex){
+        }catch (IllegalThreadStateException ex){
             ex.printStackTrace();
         }
 
