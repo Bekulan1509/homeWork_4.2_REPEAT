@@ -10,7 +10,6 @@ public class Runner extends Thread {
     }
 
 
-
     public int getNumber2() {
         return number2;
     }
@@ -59,8 +58,6 @@ public class Runner extends Thread {
             System.out.println("Runner 2 ran to Runner 1");
             sleep(1000);
             System.out.println("Runner 1 took the stick");
-
-
 
 
         } catch (InterruptedException ex) {
