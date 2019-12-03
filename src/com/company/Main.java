@@ -5,31 +5,13 @@ import java.nio.charset.IllegalCharsetNameException;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        Runner runner = new Runner();
-        try {
+        for (int i = 0; i <9 ; i++) {
+            Runner runner = new Runner();
             runner.start();
             runner.join();
-            runner.start();
-            runner.join();
-            runner.start();
-            runner.join();
-            runner.start();
-            runner.join();
-            runner.start();
-            runner.join();
-            runner.start();
-            runner.join();
-            runner.start();
-            runner.join();
-            runner.start();
-            runner.join();
-            runner.start();
-            runner.join();
-            runner.start();
-            runner.join();
-        }catch (IllegalThreadStateException ex){
-            ex.printStackTrace();
         }
+
+
 
     }
 }
