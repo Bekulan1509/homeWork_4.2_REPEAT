@@ -5,7 +5,7 @@ import java.nio.charset.IllegalCharsetNameException;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        for (int i = 0; i <9 ; i++) {
+        for (int i = 0; i <5; i++) {
             Runner runner = new Runner();
             runner.start();
             runner.join();
